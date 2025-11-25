@@ -1,10 +1,64 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Pizzarion</title>
-  </head>
-  <body>
-    <h1>Hello from Pizzarion Site! WE LOVE PIZZA!</h1>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>Pizzarion — Retro Terminal</title>
+  <style>
+    body {
+      background: #000;
+      color: #00ff55;
+      font-family: "Courier New", monospace;
+      padding: 40px;
+      text-align: center;
+      text-shadow: 0 0 5px #00ff55;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 30px;
+      text-shadow: 0 0 8px #00ff55;
+    }
+
+    pre {
+      display: inline-block;
+      font-size: 14px;
+      text-align: left;
+      line-height: 1.1;
+      padding: 20px;
+      border: 1px solid #00ff55;
+      box-shadow: 0 0 10px #00ff55;
+    }
+
+    .crt {
+      animation: flicker 0.15s infinite;
+    }
+
+    @keyframes flicker {
+      0% { opacity: 1; }
+      50% { opacity: 0.95; }
+      100% { opacity: 1; }
+    }
+  </style>
+</head>
+<body class="crt">
+
+  <h1>PIZZARION SYSTEM v1.0 — ONLINE</h1>
+
+  <pre>
+        _._
+     .-'   `-.
+    /         \
+    |  PIZZA! |
+    |  \   /  |
+    \   ) (   /
+     '._\_/_.' 
+        ) (
+      .'   `.
+     /       \
+    (  🍕 🍕  )
+     \       /
+      `.___.´
+  </pre>
+
+</body>
 </html>
